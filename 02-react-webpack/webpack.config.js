@@ -6,13 +6,14 @@ var basePath = __dirname;
 module.exports = {
   context: path.join(basePath, 'src'),
   resolve: {
-    extensions: ['.js', '.ts']
+    extensions: ['.js', '.jsx', '.ts', '.tsx']
   },
   "stats": "normal",
   entry: {
-    app: './index.ts',
-    appStyles: [
-      './mystyle.scss'
+    app: './index.tsx',
+    vendor: [
+      'react',
+      'react-dom'
     ]
   },
   devtool: 'inline-source-map',
@@ -43,7 +44,7 @@ module.exports = {
         },
       },
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         loader: 'babel-loader',
       },

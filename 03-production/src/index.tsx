@@ -1,11 +1,11 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { AverageComponent } from './averageComponent';
+import { SummaryComponent } from './summaryComponent';
 
 ReactDOM.render(
   <div>
     <h1>Hello from React DOM</h1>
-    <AverageComponent />
+    <SummaryComponent />
   </div>,
   document.getElementById('root')
 );

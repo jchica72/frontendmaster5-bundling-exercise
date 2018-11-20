@@ -13,7 +13,7 @@ Implement a simple application that:
 
 ## 03 - Production mode in Webpack
 
-## 04 - Different enviroment variables in Production & Development Webpack modes
+## 04 - Different environment variables in Production & Development Webpack modes
 
 ## 05 - Visualize size of webpack output files (Webpack Bundle Analyzer)
 

@@ -1,11 +1,14 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { SummaryComponent } from './summaryComponent';
+import { AverageComponent } from './averageComponent';
+import { EnvStatus } from './envStatus';
 
 ReactDOM.render(
   <div>
     <h1>Hello from React DOM</h1>
-    <SummaryComponent />
+    <AverageComponent />
+    <h2>Status: </h2>
+    <EnvStatus/>
   </div>,
   document.getElementById('root')
 );

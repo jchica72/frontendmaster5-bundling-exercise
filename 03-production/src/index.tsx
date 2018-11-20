@@ -1,6 +1,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { SummaryComponent } from './summaryComponent';
+import './style.scss';
 
 ReactDOM.render(
   <div>

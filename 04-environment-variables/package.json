@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --open --config webpack.dev.js",
-    "build": "rimraf dist && webpack --config webpack.prod.js"
+    "dev": "webpack-dev-server --open --config webpack.dev.js",
+    "prod": "rimraf dist && webpack --config webpack.prod.js"
   },
   "keywords": [],
   "author": "",
